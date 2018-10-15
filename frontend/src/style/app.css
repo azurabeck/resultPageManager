@@ -1,0 +1,6 @@
+.content {
+    padding: 0;
+    background-color: var(--header);
+    color: white;    
+    margin:0px auto;
+}

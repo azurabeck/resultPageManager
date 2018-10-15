@@ -1,0 +1,21 @@
+body {
+    --body: #F3F3F3;
+    --header: #E6E6E6;
+    --headerTitle: #303C49;
+    --sideMenu: #36404E;
+    --pageTitle: #555555;
+    --pageSubtitle: gray;
+    --ulMenu: #727677;
+    --ulMenuHover: #068089;
+
+    --blue: #229ED1;
+    --blueHover: rgb(18, 116, 151);
+    --red: #771E20;
+    --redHover: #5B0F13;
+    --yellow: #E7AA37;
+    --yellowHover: #DE8F2E ;
+}
+
+body {
+    --shadow: 2px 2px 2px 0px #c7c7c7;
+}

@@ -1,0 +1,51 @@
+.pageManager {
+    float: right;
+    background-color: var(--body);
+    padding: 30px;
+}
+
+.pageTitle {
+    font-size: 28px;
+    color: var(--pageTitle);
+    font-weight: 600;
+}
+
+.pageSubtitle {
+    font-size: 11px;
+    color: var(--pageSubtitle);    
+    font-weight: 600;    
+    text-transform: uppercase;    
+    letter-spacing: 0.05em;
+}
+
+.langMenu {
+    background-color: white;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 10px;    
+    box-shadow: var(--shadow)
+}
+
+.langMenu > ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.langMenu > ul > li {
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: var(--ulMenu);
+}
+
+.langMenu > ul > li:hover {
+    color: var(--ulMenuHover);
+    cursor: pointer;
+    border-bottom: 2px solid var(--ulMenuHover);
+}
