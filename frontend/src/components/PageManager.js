@@ -5,6 +5,7 @@ import { Row , Col } from 'react-bootstrap'
 
 // Components Imports
 import CfgArea from './CfgArea'
+import Table from './TableResultPage'
 
 // Styles Import
 import '../style/cfgArea.css'
@@ -29,6 +30,8 @@ class PageManager extends Component {
                     </Row>      
 
                     <CfgArea />
+                    <Table />
+                    
 
             </Col>
         )

@@ -13,6 +13,7 @@ import './style/app.css';
 import './style/header.css';
 import './style/sideMenu.css';
 import './style/pageManager.css';
+import './style/table.css';
 
 
 class App extends Component {
