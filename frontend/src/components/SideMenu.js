@@ -15,7 +15,7 @@ class SideMenu extends Component {
             <aside className='sideMenu'>
             
                 <div className='menuTitle'>
-                        <img src={Logo} height='50' /><br />
+                        <img src={Logo} height='50' alt='' /><br />
                         <label className='menuAreaName'>Inner<span className='red'>Tools</span></label><br />
                         <label className='menuSiteName'>Result-Page Man.</label>
                 </div>

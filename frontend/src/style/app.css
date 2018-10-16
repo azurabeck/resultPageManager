@@ -25,3 +25,17 @@
     -o-transition: all .35s ease;
     transition: all .35s ease;
 }
+
+@media only screen and (min-width: 1600px) {
+    .right-panel {
+        width: 85.5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .right-panel {
+        width: 72%;
+    }
+}
+
+

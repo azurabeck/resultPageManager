@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-// Extenal Library 
-import { Row, Col } from 'react-bootstrap'
-
 // Component imports
 import Header from './components/Header'
 import SideMenu from './components/SideMenu'
