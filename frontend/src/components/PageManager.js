@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 // Extenal Library 
-import { Row , Col } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 
 // Components Imports
 import CfgArea from './CfgArea'
@@ -13,7 +13,7 @@ import '../style/cfgArea.css'
 class PageManager extends Component {
     render() {
         return(
-            <Col md={12} className='pageManager'>
+            <div className='pageManager'>
                     
                     <label className='pageTitle'>PageManager 
                         <span className='pageSubtitle'> this is the result page of your app</span>
@@ -33,7 +33,7 @@ class PageManager extends Component {
                     <Table />
                     
 
-            </Col>
+            </div>
         )
     }
 }

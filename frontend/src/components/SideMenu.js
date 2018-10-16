@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 // Extenal Library 
-import { Col } from 'react-bootstrap'
 import MaterialIcon from 'material-icons-react'
 
 // Images import
@@ -13,7 +12,7 @@ class SideMenu extends Component {
     render() {
         return(
 
-            <Col md={2} className='sideMenu'>
+            <aside className='sideMenu'>
             
                 <div className='menuTitle'>
                         <img src={Logo} height='50' /><br />
@@ -36,7 +35,7 @@ class SideMenu extends Component {
                         </li>
                 </ul>
             
-            </Col>
+            </aside>
 
 
         )

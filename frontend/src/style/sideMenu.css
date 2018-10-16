@@ -1,15 +1,26 @@
-.sideMenu {  
+/* .sideMenu {  
     padding: 0px;
     text-align: left;
     position: fixed; 
     height: 100%;
+    width: 280px;
     z-index: 1; 
     top: 0; 
     left: 0;
+    overflow-x: hidden; 
+}  */
+
+aside.sideMenu {    
     background-image: linear-gradient(var(--sideMenu3), var(--sideMenu), var(--sideMenu2));
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; 
+    display: table-cell;
+    height: 100vh;
+    min-height: 100%;
+    padding: 0 25px;
+    vertical-align: top;
+    width: 280px;
+    transition: width 0.3s ease;
 }
+
 
 .menuTitle {
     height: auto;

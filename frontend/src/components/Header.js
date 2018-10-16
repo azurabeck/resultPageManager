@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
 // Extenal Library 
-import { Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import MaterialIcon from 'material-icons-react'
 
 class Header extends Component {
     render() {
         return(
-            <Row className='header'>
+            <header className='header'>
                 <Col md={12} className='headerItens'>
 
             
@@ -29,7 +29,7 @@ class Header extends Component {
                     </button>                    
 
                 </Col>
-            </Row>
+            </header>
         )
     }
 }

@@ -19,20 +19,16 @@ import './style/table.css';
 class App extends Component {
   render() {
       return (        
-          <Row className='app'>
+          <div className='app'>
 
-              <Col md={2}>
-                <SideMenu />
-              </Col>
+              <SideMenu />
               
-              <Col md={10}>
-                <Row className='content'>    
+              <div className='right-panel'>
                     <Header />                
                     <PageManager />
-                </Row>
-              </Col>
+              </div>
           
-          </Row>
+          </div>
       );
   }
 }
