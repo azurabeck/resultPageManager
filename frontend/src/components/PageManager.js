@@ -12,7 +12,7 @@ import '../style/cfgArea.css'
 class PageManager extends Component {
     render() {
         return(
-            <Col md={10} className='pageManager'>
+            <Col md={12} className='pageManager'>
                     
                     <label className='pageTitle'>PageManager 
                         <span className='pageSubtitle'> this is the result page of your app</span>

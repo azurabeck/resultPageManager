@@ -1,3 +1,6 @@
+.app {
+    margin: 0px;
+}
 .content {
     padding: 0;
     background-color: var(--header);

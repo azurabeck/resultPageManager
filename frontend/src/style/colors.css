@@ -1,7 +1,8 @@
 body {
     --body: #F3F3F3;
     --header: #E6E6E6;
-    --headerTitle: #303C49;
+    --sideMenu3: #0e131c;
+    --sideMenu2: #19202e;
     --sideMenu: #36404E;
     --pageTitle: #555555;
     --pageSubtitle: gray;
@@ -18,4 +19,8 @@ body {
 
 body {
     --shadow: 2px 2px 2px 0px #c7c7c7;
+}
+
+.red {
+    color: #cf4c51;
 }

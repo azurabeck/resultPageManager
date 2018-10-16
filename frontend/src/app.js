@@ -18,15 +18,20 @@ import './style/pageManager.css';
 class App extends Component {
   render() {
       return (        
-          <div>
+          <Row className='app'>
+
+              <Col md={2}>
+                <SideMenu />
+              </Col>
+              
+              <Col md={10}>
+                <Row className='content'>    
+                    <Header />                
+                    <PageManager />
+                </Row>
+              </Col>
           
-              <Header />
-              <Row className='content'>
-                  <SideMenu />
-                  <PageManager />
-              </Row>
-            
-          </div>
+          </Row>
       );
   }
 }
