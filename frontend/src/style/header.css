@@ -10,4 +10,63 @@
 .headerItens { 
     text-align: right;
     height: 40px;
+    padding-right: 40px;  
+}
+
+.searchGroup {
+    float: left;
+    margin-left: 30px;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    color: gray;
+}
+  
+.inputSearch {
+    border: none;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    padding-left: 10px; 
+    top: 0px;
+    height: 100%;
+    text-align: left;  
+    font-size: 12px;
+}
+
+.inputSearch:focus {
+    background-color: white;
+    transition: width 2s;
+    width: 300px;
+}
+
+#searchIcon {
+    background-color: #fff6;
+    height: 100%;
+    width: 50px;
+    display: block;
+    padding-top: 8px;
+    float: left;
+    text-align: center;
+}
+
+
+.user {
+    position: relative;    
+}
+
+.userName {
+    color: var(--sideMenu);
+    font-size: 12px;
+    position: absolute;
+    left: -65px;
+    top: 4px;
+}
+
+.filterButton {
+    height: 100%;
+    margin-left: 15px;
+    border: none;
+    background-color: var(--sideMenu);
 }

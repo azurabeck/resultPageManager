@@ -30,6 +30,10 @@ class SideMenu extends Component {
                             <MaterialIcon icon='dns' color='#c0c4c9'/>
                             <label className='textMenu'>Card Creator</label>
                         </li>
+                        <li>                            
+                            <MaterialIcon icon='lock' color='#c0c4c9' />
+                            <label className='textMenu'>Acces Control</label>
+                        </li>
                 </ul>
             
             </Col>
