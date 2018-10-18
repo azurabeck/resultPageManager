@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Component imports
 import Header from './components/Header'
 import SideMenu from './components/SideMenu'
-import PageManager from './components/PageManager'
+import Content from './components/Content'
 
 // Style Import
 import './style/app.css';
@@ -22,7 +22,7 @@ class App extends Component {
               
               <div className='right-panel'>
                     <Header />                
-                    <PageManager />
+                    <Content />
               </div>
           
           </div>

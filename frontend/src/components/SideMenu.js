@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 // Extenal Library 
 import MaterialIcon from 'material-icons-react'
@@ -21,18 +22,28 @@ class SideMenu extends Component {
                 </div>
 
                 <ul className='menuSite'>
-                        <li>
-                            <MaterialIcon icon='devices' color='#c0c4c9'/>
-                            <label className='textMenu'>Page Manager</label>
-                        </li>
-                        <li>
-                            <MaterialIcon icon='dns' color='#c0c4c9'/>
-                            <label className='textMenu'>Card Creator</label>
-                        </li>
-                        <li>                            
-                            <MaterialIcon icon='lock' color='#c0c4c9' />
-                            <label className='textMenu'>Acces Control</label>
-                        </li>
+
+                        <Link to='/'>
+                            <li>
+                                <MaterialIcon icon='devices' color='#c0c4c9'/>
+                                <label className='textMenu'>Page Manager</label>                            
+                            </li> 
+                       </Link>
+
+                       <Link to='/cardCreator'>
+                            <li>                            
+                                <MaterialIcon icon='dns' color='#c0c4c9'/>
+                                <label className='textMenu'>Card Creator</label>                            
+                            </li>
+                        </Link>
+
+                        <Link to='/accessControl'>
+                            <li>                            
+                                <MaterialIcon icon='lock' color='#c0c4c9' />
+                                <label className='textMenu'>Acces Control</label>
+                            </li>
+                        </Link>
+                        
                 </ul>
             
             </aside>
