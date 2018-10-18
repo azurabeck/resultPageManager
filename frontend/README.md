@@ -15,7 +15,7 @@ To get started developing right away:
     1. index.js
          This is reponsible to render the website
 
-    2. appLogin.js
+    2. app.js
          Here we set the estrucuture to call both fullPage and loginPage.    
 
     3. Product.js
@@ -47,6 +47,8 @@ To get started developing right away:
 
     Components Name - file begins always with capital letters
     Style Name - file name is always in camel case
+    Props elements - is alwaus on folder elements sample (single button, table)
+    Components -  Folder component is  the place to keep a inteire page or estructure of project (side menu, header, or a page applyed on content)
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).

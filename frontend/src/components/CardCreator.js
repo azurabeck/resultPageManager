@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 
 // Components Imports
-import Table from './TableCardCreator'
-import ButtonAdd from './ButtonAdd'
+import Table from '../elements/TableCardCreator'
+import ButtonAdd from '../elements/ButtonAdd'
 
 // Styles Import
 import '../style/cfgArea.css'
