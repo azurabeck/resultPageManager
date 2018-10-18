@@ -25,12 +25,12 @@
     bottom: 0;
     background-color: var(--blueHover);
     border-radius: 50%;
-    opacity: 0.1;
+    opacity: 0.2;
     transform: rotate(119deg);
 }
 
 .buttonAdd:hover > .blueCurveAdd {
     background-color: var(--blue);
-    opacity: 0.1;
+    opacity: 0.2;
     cursor: pointer;
 }
