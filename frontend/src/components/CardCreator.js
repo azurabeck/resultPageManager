@@ -4,7 +4,8 @@ import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 
 // Components Imports
-import Table from './TableResultPage'
+import Table from './TableCardCreator'
+import ButtonAdd from './ButtonAdd'
 
 // Styles Import
 import '../style/cfgArea.css'
@@ -15,21 +16,11 @@ class CardCreator extends Component {
             <div className='pageManager'>
                     
                     <label className='pageTitle'>CardCreator 
-                        <span className='pageSubtitle'> here you create cards to show on result page</span>
+                        <span className='pageSubtitle'> Create cards to show on result page</span>
                     </label> 
 
-                    <Row className='langMenu'>
-                    
-                        <ul>
-                            <li>Portuguese </li>
-                            <li>English </li>
-                            <li>Espanish </li>
-                        </ul>
-
-                    </Row>      
-
-                    <Table />
-                    
+                    <Table />      
+                    <ButtonAdd />             
 
             </div>
         )

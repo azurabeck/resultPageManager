@@ -1,0 +1,36 @@
+.buttonAdd {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: var(--blue);
+    text-align: center;
+    padding-top: 18px;
+}
+
+.buttonAdd:hover {
+    background-color: var(--blueHover);
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+.blueCurveAdd {
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    right: -5px;
+    bottom: 0;
+    background-color: var(--blueHover);
+    border-radius: 50%;
+    opacity: 0.1;
+    transform: rotate(119deg);
+}
+
+.buttonAdd:hover > .blueCurveAdd {
+    background-color: var(--blue);
+    opacity: 0.1;
+    cursor: pointer;
+}
