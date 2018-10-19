@@ -4,6 +4,8 @@ import { Switch, Route } from 'react-router-dom';
 // Component imports
 import PageManager from './PageManager'
 import CardCreator from './CardCreator'
+import NewCard  from './NewCard'
+
 
 class Content extends Component {
  
@@ -23,6 +25,7 @@ class Content extends Component {
             path='/cardCreator'
             component={CardCreator}
           />
+          <Route exact path="/newCard/:id" component={NewCard}/>          
         </Switch>
       </div>
     ) 

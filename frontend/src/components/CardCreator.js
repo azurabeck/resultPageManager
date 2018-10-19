@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 // Extenal Library 
 import { Row } from 'react-bootstrap'
@@ -16,11 +17,11 @@ class CardCreator extends Component {
             <div className='pageManager'>
                     
                     <label className='pageTitle'>CardCreator 
-                        <span className='pageSubtitle'> Create cards to show on result page</span>
+                        <span className='pageSubtitle'>Create cards to show on result page</span>
                     </label> 
 
                     <Table />      
-                    <ButtonAdd />             
+                    <Link to='/newCard/:id'><ButtonAdd /></Link>             
 
             </div>
         )

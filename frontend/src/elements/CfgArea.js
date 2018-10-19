@@ -4,6 +4,9 @@ import React from 'react'
 import {Row, Col} from 'react-bootstrap'
 import MaterialIcons from 'material-icons-react'
 
+// Component Import
+import Button from './Button'
+
 export default props => (
     <Row>      
         <Col md={12} className='cfgArea'>
@@ -16,24 +19,11 @@ export default props => (
                 </p>
 
                 <span className='cfgSpan'>Portuguese</span>
-             </label>
-        
-             <button className='previewCfg' >
-            
-                <label className='buttonText'>Preview CFG</label>                
-                <label className='buttonImage'><MaterialIcons icon='visibility' color='#efefef' /></label>
-                <label className='yellowCurve'></label>
-            
-            </button>
-                        
-            <button className='downloadCfg' >
-            
-                <label className='buttonText'>Download CFG</label>
-                <label className='buttonImage'><MaterialIcons icon='get_app' color='#efefef' /></label>
-                <label className='blueCurve'></label>
-            
-            </button>
-            
+             </label>        
+
+            <Button bgColor='yellow' buttonTitle='Preview CFG' icon='visibility' iconColor='#efefef' curveColor='yellowCurve'/>        
+            <Button bgColor='blue' buttonTitle='Download CFG' icon='get_app' iconColor='#efefef' curveColor='blueCurve'/>
+         
         
         </Col>      
     </Row>

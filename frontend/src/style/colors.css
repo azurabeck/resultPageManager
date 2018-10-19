@@ -24,3 +24,29 @@ body {
 .red {
     color: #cf4c51;
 }
+
+#blue {
+    background-color: var(--blue)
+}
+
+#blue:hover {
+    background-color: var(--blueHover);
+    transition-duration: 0.25s;
+}
+
+#blueCurve {    
+    background-color: var(--blueHover);
+}
+
+#yellow {
+    background-color: var(--yellow)
+}
+
+#yellow:hover {
+    background-color: var(--yellowHover);
+    transition-duration: 0.25s;
+}
+
+#yellowCurve {    
+    background-color: var(--yellowHover);
+}

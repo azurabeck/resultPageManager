@@ -12,6 +12,7 @@ import './style/sideMenu.css';
 import './style/pageManager.css';
 import './style/table.css';
 import './style/buttonAdd.css';
+import './style/button.css';
 
 
 class App extends Component {
