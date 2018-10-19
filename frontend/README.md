@@ -47,7 +47,7 @@ To get started developing right away:
 
     Components Name - file begins always with capital letters
     Style Name - file name is always in camel case
-    Props elements - is alwaus on folder elements sample (single button, table)
+    Elements - is part of a component, always on folder elements. Sample (single button, table)
     Components -  Folder component is  the place to keep a inteire page or estructure of project (side menu, header, or a page applyed on content)
 
 ## Create React App
