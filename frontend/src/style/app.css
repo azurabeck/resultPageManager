@@ -15,6 +15,14 @@
     transition: all .35s ease;
 }
 
+.whiteBox {
+    background-color: white;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 10px;    
+    box-shadow: var(--shadow)
+}
+
 .right-panel {
     display: table-cell;
     width: 79%;

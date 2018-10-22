@@ -19,7 +19,7 @@ class PageManager extends Component {
                         <span className='pageSubtitle'> this is the result page of your app</span>
                     </label> 
 
-                    <Row className='langMenu'>
+                    <Row className='whiteBox'>
                     
                         <ul>
                             <li>Portuguese </li>

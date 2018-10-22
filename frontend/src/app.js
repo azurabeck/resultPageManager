@@ -13,6 +13,7 @@ import './style/pageManager.css';
 import './style/table.css';
 import './style/buttonAdd.css';
 import './style/button.css';
+import './style/newCard.css'
 
 
 class App extends Component {

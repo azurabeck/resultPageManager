@@ -10,11 +10,13 @@ body {
     --ulMenuHover: #068089;
 
     --blue: #229ED1;
-    --blueHover: rgb(18, 116, 151);
+    --blueHover: rgb(11, 98, 130);
     --red: #cf4c51;
     --redHover: #5B0F13;
     --yellow: #E7AA37;
-    --yellowHover: #DE8F2E ;
+    --yellowHover: rgb(184, 114, 28) ;
+    --purple: #996df7;
+    --purpleHover: #37099b;
 }
 
 body {
@@ -25,6 +27,7 @@ body {
     color: #cf4c51;
 }
 
+/* #region BLUE BG*/
 #blue {
     background-color: var(--blue)
 }
@@ -38,6 +41,9 @@ body {
     background-color: var(--blueHover);
 }
 
+
+/* #endregion */
+/* #region YELLOW BG */
 #yellow {
     background-color: var(--yellow)
 }
@@ -50,3 +56,38 @@ body {
 #yellowCurve {    
     background-color: var(--yellowHover);
 }
+
+
+/* #endregion */
+/* #region RED BAG */
+#red {
+    background-color: var(--red)
+}
+
+#red:hover {
+    background-color: var(--redHover);
+    transition-duration: 0.25s;
+}
+
+#redCurve {    
+    background-color: var(--redHover);
+}
+
+/* #endregion */
+/* #region PURPLE BAG */
+#purple {
+    background-color: var(--purple)
+}
+
+#purple:hover {
+    background-color: var(--purpleHover);
+    transition-duration: 0.25s;
+}
+
+#purpleCurve {    
+    background-color: var(--purpleHover);
+}
+
+
+
+/* #endregion */

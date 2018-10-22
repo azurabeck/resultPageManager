@@ -18,22 +18,14 @@
     letter-spacing: 0.05em;
 }
 
-.langMenu {
-    background-color: white;
-    margin: 0px;
-    margin-top: 15px;
-    padding: 10px;    
-    box-shadow: var(--shadow)
-}
-
-.langMenu > ul {
+.whiteBox > ul {
     list-style: none;
     display: inline-flex;
     padding: 0;
     margin: 0;
 }
 
-.langMenu > ul > li {
+.whiteBox > ul > li {
     margin: 0;
     margin-right: 15px;
     padding: 0;
@@ -44,7 +36,7 @@
     color: var(--ulMenu);
 }
 
-.langMenu > ul > li:hover {
+.whiteBox > ul > li:hover {
     color: var(--ulMenuHover);
     cursor: pointer;
     border-bottom: 2px solid var(--ulMenuHover);
