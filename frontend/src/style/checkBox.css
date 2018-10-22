@@ -1,0 +1,64 @@
+.checkBoxGroup {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 35px;
+}
+
+.checkBoxGroup input {
+    display: none;
+}
+
+.customCheckBox {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px 0px #7d7878;
+    border-radius: 2px;
+}
+
+.checkBoxTitle {
+    color: var(--pageTitle);    
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 0px;
+    font-size: 11px;
+    margin-top: 6px;
+    letter-spacing: 0.09em;    
+    cursor: pointer;
+}
+
+.checkBoxGroup input:checked ~ .customCheckBox {
+    background-color: transparent;
+    width: 8px;
+    height: 15px;
+    border: solid #0792b0;
+        border-top-width: medium;
+        border-right-width: medium;
+        border-bottom-width: medium;
+        border-left-width: medium;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: 0px 2px 2px 0px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: none;
+    left: 5px;
+    top: 5px;
+    border-radius: 0px;
+}
+
+.checkBoxGroup:hover input ~ .customCheckBox {
+    background-color: #096072;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}

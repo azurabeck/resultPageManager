@@ -14,6 +14,8 @@ import './style/table.css';
 import './style/buttonAdd.css';
 import './style/button.css';
 import './style/newCard.css'
+import './style/buttonRadio.css'
+import './style/checkBox.css'
 
 
 class App extends Component {
