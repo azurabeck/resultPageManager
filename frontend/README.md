@@ -47,8 +47,10 @@ To get started developing right away:
 
     Components Name - file begins always with capital letters
     Style Name - file name is always in camel case
-    Elements - is part of a component, always on folder elements. Sample (single button, table)
-    Components -  Folder component is  the place to keep a inteire page or estructure of project (side menu, header, or a page applyed on content)
+
+    Elements - Single button, table or things like this. Always on folder elements.  
+    AreaBlock - Elements that compound a block, that will be fixed on a component. Styles is set on root page.
+    Components -  Folder component is  the place to keep a entire page or estructure of project (side menu, header, content or content page)
 
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).

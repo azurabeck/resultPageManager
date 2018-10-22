@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 
 // Components Imports
-import CfgArea from '../elements/CfgArea'
+import CfgArea from '../areaBlock/CfgArea'
 import Table from '../elements/TableResultPage'
 
 // Styles Import

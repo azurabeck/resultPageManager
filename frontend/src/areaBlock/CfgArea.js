@@ -5,7 +5,7 @@ import {Row, Col} from 'react-bootstrap'
 import MaterialIcons from 'material-icons-react'
 
 // Component Import
-import Button from './Button'
+import Button from '../elements/Button'
 
 export default props => (
     <Row>      

@@ -1,17 +1,6 @@
-/* .sideMenu {  
-    padding: 0px;
-    text-align: left;
-    position: fixed; 
-    height: 100%;
-    width: 280px;
-    z-index: 1; 
-    top: 0; 
-    left: 0;
-    overflow-x: hidden; 
-}  */
-
 aside.sideMenu {    
-    background-image: linear-gradient(var(--sideMenu3), var(--sideMenu), var(--sideMenu2));
+    /* background-image: linear-gradient(var(--sideMenu3), var(--sideMenu), var(--sideMenu2)); */
+    background-color: var(--sideMenu);
     display: table-cell;
     height: 100vh;
     min-height: 100%;
