@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 // Block Import
 import CardTypeArea from '../areaBlock/CardTypeArea';
 import CardPropertiesArea from '../areaBlock/CardPropertiesArea';
+import CardContent from '../areaBlock/CardContent';
+
 
 // Extenal Library 
 import { Row , Col } from 'react-bootstrap'
@@ -14,12 +16,12 @@ class NewCard extends Component {
             <div className='pageManager'>
                     
                     <label className='pageTitle'>NewCard 
-                        <span className='pageSubtitle'>create a new card to post latter</span>
+                        <span className='pageSubtitle'>create a new card to post later</span>
                     </label> 
 
                     <CardTypeArea />
                     <CardPropertiesArea />
-
+                    <CardContent />
                     
 
             </div>

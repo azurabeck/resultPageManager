@@ -13,7 +13,7 @@ import ButtonRadio from '../elements/ButtonRadio'
 export default props => (
     <Row className='whiteBox'>
 
-        <label className='titleRadioGroup'>2 STEP -  Define propeties for your card</label>
+        <label className='titleRadioGroup'>2 STEP -  Define your card <span className='spanTitle'> properties </span></label>
 
 
         <Col md={6}>
@@ -25,8 +25,8 @@ export default props => (
             </div>
 
             <div className='formBlock'>
-                <label className='formTitle'> Language <span className='required'> *Required </span> </label>
-                <label className='formDescription'>Card hyperlink that links to a particular item</label>
+                <label className='formTitle'> Country <span className='required'> *Required </span> </label>
+                <label className='formDescription'>Required country, to be filled on content</label>
 
                 <div className='selectGroup'>
                     <select className='select'>
@@ -36,7 +36,7 @@ export default props => (
                         <option>Spanish</option>
 
                     </select>
-                    <MaterialIcon icon='arrow_drop_down' id='selectArrow' />
+                    <MaterialIcon icon='arrow_drop_down' id='selectArrow'/>
                 </div>
 
             </div>

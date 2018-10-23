@@ -70,3 +70,12 @@
     border: none;
     background-color: var(--sideMenu);
 }
+
+
+@media only screen and (min-width: 1600px) {
+    .headerItens {
+        margin: 0 auto;
+        max-width: 1400px;
+        margin-left: 120px;
+    }
+}
