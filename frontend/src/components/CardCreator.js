@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-// Extenal Library 
-import { Row } from 'react-bootstrap'
 
 // Components Imports
 import Table from '../elements/TableCardCreator'

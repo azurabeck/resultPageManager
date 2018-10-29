@@ -6,10 +6,6 @@ import CardPropertiesArea from '../areaBlock/CardPropertiesArea';
 import CardContent from '../areaBlock/CardContent';
 
 
-// Extenal Library 
-import { Row , Col } from 'react-bootstrap'
-import MaterialIcon from 'material-icons-react'
-
 class NewCard extends Component {
     render() {
         return(

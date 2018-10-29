@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Header from './components/Header'
 import SideMenu from './components/SideMenu'
 import Content from './components/Content'
+import * as NewsAPI from './utils/utils'
 
 // Style Import
 import './style/app.css';
@@ -19,7 +20,26 @@ import './style/checkBox.css'
 
 
 class App extends Component {
-  render() {
+
+    state = {
+        ResultPage: []
+      }
+
+    componentDidMount() {
+        this.fetch_news_details()
+      }
+    
+      fetch_news_details = () => {
+        NewsAPI.getAllPosts().then((page) => {
+          this.setState({ResultPage: page})
+        })
+      }
+
+
+    render() {
+
+        console.log(this.state.ResultPage)
+
       return (        
           <div className='app'>
 

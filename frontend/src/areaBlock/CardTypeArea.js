@@ -2,7 +2,6 @@ import React from 'react'
 
 // External Library
 import { Row, Col } from 'react-bootstrap'
-import MaterialIcons from 'material-icons-react'
 
 // Component Import
 import ButtonRadio from '../elements/ButtonRadio'

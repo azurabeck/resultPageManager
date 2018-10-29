@@ -7,9 +7,6 @@ import MaterialIcon from 'material-icons-react'
 // Element Import
 import CheckBox from '../elements/CheckBox'
 
-// Component Import
-import ButtonRadio from '../elements/ButtonRadio'
-
 export default props => (
     <Row className='whiteBox'>
 

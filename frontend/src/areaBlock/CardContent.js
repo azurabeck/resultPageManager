@@ -4,9 +4,6 @@ import React from 'react'
 import {Row, Col} from 'react-bootstrap'
 import MaterialIcon from 'material-icons-react'
 
-// Component Import
-import Button from '../elements/Button'
-
 export default props => (
     <Row className='whiteBox'>
 
@@ -48,8 +45,6 @@ export default props => (
             <MaterialIcon icon='arrow_drop_down' id='selectArrow' />
         
         </Col>
-
-        
 
     </Row>
 )
