@@ -11,6 +11,18 @@ import Table from '../elements/TableResultPage'
 import '../style/cfgArea.css'
 
 class PageManager extends Component {
+
+
+    state = {
+        staticDate: [{ 
+            country: 'usa',
+            lastUpdate: 1292595600,
+            name: 'static data test',
+            status: 'published',            
+        }]
+      }
+    
+
     render() {
         return(
             <div className='pageManager'>
@@ -30,7 +42,7 @@ class PageManager extends Component {
                     </Row>      
 
                     <CfgArea />
-                    <Table />
+                    <Table data={this.state.staticDate}/> />
                     
 
             </div>

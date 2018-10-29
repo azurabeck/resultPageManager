@@ -1,48 +1,48 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 // External Library
-import {Row, Col} from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
-export default props => (
-    <Row>      
-        <Col md={12} className='cfgArea'>
+class TableResultPage extends Component {
 
-            <table>
-
-                <thead className='tableHeader'>
-                    <tr>
-                        <th>ResultPage Name</th>
-                        <th>Page Status</th>
-                        <th>Last Update</th>
-                    </tr>
-                </thead>
-                <tbody className='tableBody'>
-                    <tr>
-                        <td>Quick Cleanup</td>
-                        <td>Published</td>
-                        <td>15/10/2018 - 16:09:24</td>
-                    </tr>
-                    <tr>
-                        <td>Quick Cleanup</td>
-                        <td>Published</td>
-                        <td>15/10/2018 - 16:09:24</td>
-                    </tr>
-                    <tr>
-                        <td>Quick Cleanup</td>
-                        <td>Published</td>
-                        <td>15/10/2018 - 16:09:24</td>
-                    </tr>
-                    <tr>
-                        <td>Quick Cleanup</td>
-                        <td>Published</td>
-                        <td>15/10/2018 - 16:09:24</td>
-                    </tr>
-                </tbody>
-
-            </table>
-            
+    render() {
         
-        </Col>      
-    </Row>
-)
+       
+        const { data } = this.props
 
+        return (
+            <Row>
+                <Col md={12} className='cfgArea'>
+
+                    <table>
+
+                        <thead className='tableHeader'>
+                            <tr>
+                                <th>ResultPage Name</th>
+                                <th>Page Status</th>
+                                <th>Last Update</th>
+                            </tr>
+                        </thead>
+                        <tbody className='tableBody'>
+                            {
+                                data.map((item, index) => 
+                                <tr>
+                                    <td>{item.name}</td>
+                                    <td>{item.status}</td>
+                                    <td>{item.lastUpdate}</td>
+                                </tr>
+                                )
+                            }
+                        </tbody>
+
+                    </table>
+
+                </Col>
+            </Row>
+
+        )
+    }
+};
+
+
+export default TableResultPage
